@@ -2,7 +2,10 @@
 <link rel="stylesheet" href="style.css">
 <script src="app.js"></script>
 
+
 <section id="header">
+    <p> <a href="#" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')" title="Dark/light
+</p>
     <div class="header container">
         <div class="nav-bar">
             <div class="brand">
