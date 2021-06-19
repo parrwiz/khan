@@ -8,6 +8,7 @@
                                   body {
                                     background-color: #FFD300;
                                     color: black;
+                                     scroll-behavior: smooth;
                                   }
                                 }
                                 @media (prefers-color-scheme: light) {
